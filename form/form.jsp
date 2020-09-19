@@ -22,7 +22,7 @@
 	String sql = "insert into emp values ('"+x+"','"+y+"')";
 	statement.executeUpdate(sql);
 	PrintWriter out1=response.getWriter();
-	out1.println("<h1> Record Successfully Inserted </h1?");
+	out1.println("<h1> Record Successfully Inserted </h1>");
 	
 	RequestDispatcher rd=request.getRequestDispatcher("form.html"); 
 	rd.include( request, response);
