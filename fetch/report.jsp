@@ -38,7 +38,8 @@
 	out.println("<th>"+ename+"</th>");
 	out.println("<th>"+dept+"</th>");
 	out.println("</tr>");
+	}
 	out.println("</table>");
-	}	
+		
 %>
 
